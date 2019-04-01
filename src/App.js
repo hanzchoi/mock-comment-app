@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import './App.css';
+import faker from 'faker';
 
 class App extends Component {
   render() {
