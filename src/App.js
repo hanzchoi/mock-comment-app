@@ -8,7 +8,7 @@ class App extends Component {
       <div className="ui container comments">
         <div className="comment">
           <a href="/" className="avatar">
-            <img src="avatar" />
+            <img src={faker.image.avatar()} alt="avatar" />
           </a>
           <div className="content">
             <a href="/" className="author">
